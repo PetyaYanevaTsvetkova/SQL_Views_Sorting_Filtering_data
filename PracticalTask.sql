@@ -61,7 +61,7 @@ SELECT country
 FROM 
 	customer_address
 ORDER BY 
-	country;
+	country ASC;
 
 
 --cities that start with a specific letter
