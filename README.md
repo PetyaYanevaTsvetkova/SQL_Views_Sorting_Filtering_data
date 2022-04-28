@@ -3,7 +3,7 @@ SQL: Views, Sorting and Filtering data
 
 ## Project Description:
 
-	*Theory:
+*Theory:
 Views;
 Sorting data with ORDER BY clause (sort the data by one or more columns in the ascending and/or descending order);
 Filtering Data
@@ -15,7 +15,7 @@ AND, OR, NOT and IS NULL operators
 BETWEEN, IN, LIKE
 Wildcards
 
-	*Practical tasks:
+*Practical tasks:
 Create table customers_addresses with primary key (auto increment) and:
 Address
 City - mandatory field
@@ -34,7 +34,7 @@ get a list of all addresses in Bulgaria outside of Sofia, Plovdiv, Varna
 get last 10 added customer addresses with a province and address filled, but without a state value
 get addresses that have 4-digit postal code that start with 3 and end with 7. Order the result alpabetically by country and city
 	
-	*Acceptance criteria:
+*Acceptance criteria:
 As a QA Automation trainee, I want to gain knowledge of how to:
 order and filter data
 use wildecards
