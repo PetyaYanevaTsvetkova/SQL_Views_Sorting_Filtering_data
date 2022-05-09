@@ -71,7 +71,7 @@ FROM
 WHERE 
 	city LIKE 'L%';
 
---3 cities located in Bulgaria
+--3 random cities located in Bulgaria
 SELECT city
 FROM 
 	customer_address
