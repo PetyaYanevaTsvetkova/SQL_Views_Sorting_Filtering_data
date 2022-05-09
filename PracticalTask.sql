@@ -71,7 +71,7 @@ FROM
 WHERE 
 	city LIKE 'L%';
 
---3 different random cities located in Bulgaria
+--3 cities located in Bulgaria
 SELECT city
 FROM 
 	customer_address
@@ -80,6 +80,18 @@ WHERE
 ORDER BY 
 	RANDOM()
 LIMIT 3;
+
+
+----3 different random cities located in Bulgaria
+SELECT * FROM (SELECT DISTINCT city
+FROM 
+	customer_address
+WHERE 
+	country LIKE 'Bulgaria') as AL
+ORDER BY 
+	RANDOM() 
+LIMIT 3;
+
 
 --all addresses in Bulgaria outside of Sliven, Gabrovo, Varna
 SELECT *
